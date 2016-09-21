@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+
+.slideshow-container{
+    width: 100%;
+    height: 500px;
+    background-color: cadetblue;
+    position: relative;
+    z-index: 1;
+}
+
+.slide, .img{
+    width: 100%;
+    height: 100%;
+}
+
+.slide{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.arrow{
+    color: white;
+    z-index: 3;
+    position: absolute;
+    top: 40%;
+    padding: 3rem;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.previous{
+    left: 1%;
+}
+
+.next{
+    right: 1%;
+}
+
+.visible{
+    display: block;
+}
+
+.invisible{
+    display: none;
+}
